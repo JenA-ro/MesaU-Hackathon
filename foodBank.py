@@ -204,7 +204,7 @@ food_bank_label = tk.Label(root, text=translations[current_lang]["choose_food_ba
 food_bank_label.pack(pady=10)
 
 # Food bank dropdown (initially hidden)
-food_bank_dropdown = ttk.Combobox(root, state="read only")
+food_bank_dropdown = ttk.Combobox(root, state="readonly")
 food_bank_dropdown.pack_forget() # Display only after search results
 
 # View website button (initially hidden)
